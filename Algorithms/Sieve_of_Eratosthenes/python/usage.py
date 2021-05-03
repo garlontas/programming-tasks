@@ -1,6 +1,6 @@
 """
-This small program demonstrates the usage of PrimeGenerator
-It generates Prime Numbers from 2-100 and prints them to console.
+This small program demonstrates the usage of PrimeGenerator.
+It generates Prime Numbers from 2-10 and prints them to console.
 """
 import primes
 
