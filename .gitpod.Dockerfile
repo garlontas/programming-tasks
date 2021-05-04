@@ -6,5 +6,4 @@ RUN sudo apt-get update \
     && sudo apt-get install -y pypy3 \
     && sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --skip-chsh \
     && sudo rm -rf /var/lib/apt/lists/* \
-    && bash -c ". /home/gitpod/.sdkman/bin/sdkman-init.sh" \
-    && sdk install java 16.0.1.j9-adpt
+    && bash -c ". /home/gitpod/.sdkman/bin/sdkman-init.sh"
