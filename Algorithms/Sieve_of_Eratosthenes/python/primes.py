@@ -20,7 +20,7 @@ class PrimeGenerator:
 
         for i in range(self.__maxValueSqrt+1, self.__maxValue):
             if not self.__removed[i]:
-                self.__primes.append([i])
+                self.__primes.append(i)
 
     def get_primes(self):
         return self.__primes
